@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Counter App</title>
+</head>
+<body>
+
+  <div class="conrainer">
+    <div class="text">
+      <p id="welcome-el"></p>
+      <h1>Count</h1>
+      <h2 id="increase">0</h2>
+      <button class="count" onclick="counting()">Counter</button>
+      <button class="reset" onclick="reset()" style="font-size: 12px; border-radius: 5px; padding: 5px 10px; position: relative; top: 10px;">Reset</button>
+      <button id="save-btn" onclick="save()">Save</button>
+      
+      <p id="save-el">Previous Counts: </p>
+      <button style="font-size: 12px; border-radius: 5px; padding: 5px 10px; position: relative; top: 10px;" id="clear" onclick="clearall()"> Clear</button>
+    </div>
+  </div>
+  
+
+  <script src="button.js"></script>
+</body>
+</html>
